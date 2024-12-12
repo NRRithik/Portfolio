@@ -42,6 +42,13 @@
 .education{
     width: 250px;
     margin-left: 4%;
+    position: relative; 
+}
+
+.edu-photo{
+    float: right;
+    margin-top: 200px;
+    margin-right: 250px;
 }
 
 .edu{
@@ -54,6 +61,13 @@
     text-align: center;   
     margin-left: 0%;
   
+}
+
+.things-photo{
+    float: right;
+    margin-top: 200px;
+    margin-right: 250px;
+
 }
 
 .things .bed{
