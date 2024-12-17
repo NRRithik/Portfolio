@@ -1,8 +1,8 @@
 *{
-    /* margin-top: 2%; */
+
     margin-left: 2%;
     margin-right: 2%;
-    /* text-align: center; */
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,6 +15,12 @@
     text-align: center;
 }
 
+
+.hdr ul{
+    background-color: black;
+}
+
+
 .hdr h1{
     margin-left: 45%;
     color: red;
@@ -24,6 +30,12 @@
     color: rgb(106, 199, 106);
     cursor: pointer;
     text-decoration: underline;
+}
+
+.hdr a:hover{
+    background-color:   rgb(106, 199, 106);
+    border:  solid red 5;  
+    border-radius: 5px;
 }
 
 .name{
@@ -43,6 +55,7 @@
     width: 250px;
     margin-left: 4%;
     position: relative; 
+    box-shadow: none;
 }
 
 .edu-photo{
@@ -51,9 +64,14 @@
     margin-right: 250px;
 }
 
+
 .edu{
     background-color: rgb(243, 239, 239);
     margin-top: 0%;
+    background-image:url(education\ photo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* opacity: 0.9; */
 }
 
 .things .fed{
@@ -80,15 +98,27 @@
 
 .things{
     background-color: rgb(245, 235, 221);
+    background-image:url(things\ i\ do\ photo\ 1);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+
 }
 
 .project{
     width: 400px;
     text-align: center;
+    color: red;
 }
 
+.project p {
+    color: red;
+}
 .pro{
     background-color:#d6dadd ;
+    background-image:url(project\ photo);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -101,3 +131,10 @@ footer{
     color: white;
 }
 
+
+
+@media screen and (max-width:700px){
+    .education p  {
+        color: red;
+    }
+}
