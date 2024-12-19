@@ -39,7 +39,7 @@
 }
 
 .name{
-    width: 250px;
+    width: 320px;
     display: inline-block;
     border-style: solid;
     border-width: 2px;
@@ -48,6 +48,24 @@
 
 .info{
     background-color: #f9fafb;
+    height: 750px;
+    background-image: url(info\ bg\ img);
+    background-size: 100% 100%;
+}
+
+.info img{
+    margin-top: 250px;
+    
+}
+
+.info .name h1 {
+    color:white;
+    font-size: 30px;
+}
+
+.info .name p {
+    color: white;
+    font-size: 30px;
 }
 
 
