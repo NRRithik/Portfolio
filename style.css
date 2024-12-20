@@ -179,8 +179,9 @@ footer{
         border: none;
       }
 
-      .hdr{
+      .info{
         width: 347px;
+        font-size: 10px;
       }
 
   }
