@@ -163,21 +163,18 @@ footer{
 
 
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:300px) {
     /* For mobile phones: */
 
-    *{
-        width: 380px;
-    }
+
     .info img  {
        width: 100px ;
        height: 150px;
-       /* margin-top: 0px; */
        display: inline;
       }
 
       .name {
-        width: 250px;
+        width: 100px;
         height: 400px;
         border: none;
       }
