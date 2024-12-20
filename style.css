@@ -165,6 +165,10 @@ footer{
 
 @media only screen and (max-width:350px) {
     /* For mobile phones: */
+
+    *{
+        width: 380px;
+    }
     .info img  {
        width: 100px ;
        height: 150px;
