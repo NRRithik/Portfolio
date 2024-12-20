@@ -1,8 +1,4 @@
-*{
-
-    margin-left: 2%;
-    margin-right: 2%;
-    
+*{    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,6 +14,7 @@
 
 .hdr ul{
     background-color: black;
+    border: solid 4px  rgb(106, 199, 106) ;
 }
 
 
@@ -39,22 +36,28 @@
 }
 
 .name{
-    width: 320px;
+    width: 400px;
+    height: 230px;
     display: inline-block;
     border-style: solid;
     border-width: 2px;
     border-color: red;
+    margin-top:20px;
 }
 
+.info span{
+    margin-left: 2%;
+}
 .info{
     background-color: #f9fafb;
-    height: 750px;
+    height: 850px;
     background-image: url(info\ bg\ img);
     background-size: 100% 100%;
 }
 
 .info img{
-    margin-top: 250px;
+    margin-left: 75px;
+    margin-top: 50px;
     
 }
 
@@ -119,8 +122,13 @@
     background-image:url(things\ i\ do\ photo\ 1);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    
+}
 
+.things p {
+    margin-left: 1.7%;
+}
+.things h1 {
+    margin-left: 6%;
 }
 
 .project{
@@ -131,6 +139,10 @@
 
 .project p {
     color: red;
+}
+
+.project {
+    margin-left: 1.7%;
 }
 .pro{
     background-color:#d6dadd ;
@@ -151,8 +163,19 @@ footer{
 
 
 
-@media screen and (max-width:700px){
-    .education p  {
-        color: red;
-    }
-}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .info img  {
+       width: 100px ;
+       height: 150px;
+       /* margin-top: 0px; */
+       display: inline;
+      }
+
+      .name {
+        width: 250px;
+        height: 400px;
+        border: none;
+      }
+
+  }
