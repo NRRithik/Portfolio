@@ -71,6 +71,15 @@
     font-size: 30px;
 }
 
+.info a {
+    color: greenyellow;
+    background-color:black;
+    margin-left: 45%;
+    font-size: 50px;
+    border-radius: 10px;
+    text-decoration:none;
+    border: red 1px solid;  
+}
 
 .education{
     width: 250px;
@@ -163,15 +172,30 @@ footer{
 
 
 
+
+
 @media only screen and (max-width:600px) {
     /* For mobile phones: */
+    .info .name h1{
+        width: 270px;      
+    }
 
+    .info .name p {
+        width: 400px;
+    }
 
     .info img  {
-       width: 100px ;
-       height: 150px;
+       width: 200px;
+       height: 200px;
        display: inline;
-      }
+    }
+
+
+    .info a{
+        margin-left: 15%        
+    }
+    
+
 
       .name {
         width: 100px;
@@ -179,8 +203,6 @@ footer{
         border: none;
         
       }
-
- 
 
       .fed img{
         width: 175px;
