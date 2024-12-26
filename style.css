@@ -1,15 +1,12 @@
 *{    
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.hdr{
-    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif papyrus;
+   
 }
 
 .hdr li{
     display: inline;
-    text-align: center;
 }
+
 
 
 .hdr ul{
@@ -19,8 +16,8 @@
 
 
 .hdr h1{
-    margin-left: 45%;
     color: red;
+    display: inline-block;
 }
 
 .hdr li:hover{
@@ -36,13 +33,20 @@
 }
 
 .name{
-    width: 400px;
+    width: 410px;
     height: 230px;
     display: inline-block;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
     margin-top:20px;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    animation: animation-info 2s;
+    font-family:  papyrus;
+}
+
+@keyframes animation-info{
+    from {right: 0%;}
+    to {right: 100%;}
 }
 
 .info span{
@@ -50,15 +54,20 @@
 }
 .info{
     background-color: #f9fafb;
-    height: 850px;
+    height: 950px;
     background-image: url(info\ bg\ img);
     background-size: 100% 100%;
 }
 
 .info img{
-    margin-left: 75px;
-    margin-top: 50px;
-    
+    margin-left: 10px;
+    position: relative;
+    animation: animation-image 3s;
+}
+
+@keyframes animation-image{
+    from {left: 500px;}
+    to {left: 0px;}
 }
 
 .info .name h1 {
@@ -79,10 +88,11 @@
     border-radius: 10px;
     text-decoration:none;
     border: red 1px solid;  
+    position: absolute;
 }
 
 .education{
-    width: 250px;
+
     margin-left: 4%;
     position: relative; 
     box-shadow: none;
@@ -97,17 +107,54 @@
 
 .edu{
     background-color: rgb(243, 239, 239);
-    margin-top: 0%;
+    height: 1000px;
     background-image:url(education\ photo.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* opacity: 0.9; */
+
+}
+
+.edu table{
+    width: 50%;
+}
+
+.edu td:hover{
+    border-bottom: solid red 1px;
+}
+
+
+.skills{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+
+}
+
+/* .skills .skills-image{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+ */
+ .thgs-desc{
+    margin-left: 40%;
+    display: block;
+    position: absolute;
+ }
+
+.things .fed-bed{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 300px;
+ 
 }
 
 .things .fed{
     width: 400px;
     text-align: center;   
-    margin-left: 0%;
+  
   
 }
 
@@ -122,7 +169,7 @@
     width: 400px;
     text-align: center;
     margin-left: 0%;
-    margin-top: 50px;
+
 }
 
 
@@ -131,33 +178,36 @@
     background-image:url(things\ i\ do\ photo\ 1);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    display: flex;
+    height: 1000px;
 }
 
-.things p {
-    margin-left: 1.7%;
-}
-.things h1 {
-    margin-left: 6%;
+.things h1,h5{  
+    color: red;
 }
 
 .project{
     width: 400px;
     text-align: center;
     color: red;
+    display: inline-block;
 }
 
 .project p {
     color: red;
 }
 
+
 .project {
-    margin-left: 1.7%;
+    margin-left: 40%;
 }
+
 .pro{
     background-color:#d6dadd ;
     background-image:url(project\ photo);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    height: 1000px;
 }
 
 
@@ -165,6 +215,9 @@ footer li:hover{
     text-decoration: underline;
 }
 
+footer li{
+    display: inline;
+}
 footer{
     background-color: black;
     color: white;
