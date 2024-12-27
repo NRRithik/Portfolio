@@ -37,7 +37,7 @@
     height: 230px;
     display: inline-block;
     margin-top:20px;
-    margin-right: 20px;
+    margin-right: 400px;    
     position: absolute;
     right: 0;
     animation: animation-info 2s;
@@ -55,12 +55,12 @@
 .info{
     background-color: #f9fafb;
     height: 950px;
-    background-image: url(info\ bg\ img);
+    background-image: url(photos/home\ page\ img.avif);
     background-size: 100% 100%;
 }
 
 .info img{
-    margin-left: 10px;
+    margin-left: 20px;
     position: relative;
     animation: animation-image 3s;
 }
@@ -92,7 +92,6 @@
 }
 
 .education{
-
     margin-left: 4%;
     position: relative; 
     box-shadow: none;
@@ -108,7 +107,7 @@
 .edu{
     background-color: rgb(243, 239, 239);
     height: 1000px;
-    background-image:url(education\ photo.png);
+    background-image:url(photos/education\ photo.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -175,7 +174,7 @@
 
 .things{
     background-color: rgb(245, 235, 221);
-    background-image:url(things\ i\ do\ photo\ 1);
+    background-image:url(photos/things-i-do-photo\ .jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -204,7 +203,7 @@
 
 .pro{
     background-color:#d6dadd ;
-    background-image:url(project\ photo);
+    background-image:url(photos/project-photo.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 1000px;
