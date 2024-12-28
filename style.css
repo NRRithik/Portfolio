@@ -129,13 +129,16 @@
 
 }
 
-/* .skills .skills-image{
+.skills-img{
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 40px;
+    text-align: center;
+    margin-top: 40px;
 }
- */
+
  .thgs-desc{
-    margin-left: 40%;
+    margin-left: 43%;
     display: block;
     position: absolute;
  }
@@ -207,6 +210,37 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 1000px;
+}
+
+
+.contact{
+
+    height: 1100px;
+    background-image: url(photos/radium\ img.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.contact-details{
+    background-color: black;
+    width: 900px;
+    height: 1090px;
+    color: black;
+    margin-left: 500px;
+    padding-top: 10px;
+}
+
+.contact-name{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 1px;
+    background-image: linear-gradient(to bottom right,whitesmoke, pink, yellow);
 }
 
 
