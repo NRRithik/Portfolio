@@ -135,6 +135,13 @@
     gap: 40px;
     text-align: center;
     margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+
+
+
+.skills-img:hover{
+    transform: scale(1.1);
 }
 
  .thgs-desc{
