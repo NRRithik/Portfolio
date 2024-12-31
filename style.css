@@ -32,6 +32,9 @@
     border-radius: 5px;
 }
 
+.info-bg{
+    background-color: black;
+}
 .name{
     width: 410px;
     height: 230px;
@@ -89,7 +92,17 @@
     text-decoration:none;
     border: red 1px solid;  
     position: absolute;
+    animation: animation-resume 4s infinite ;
 }
+@keyframes animation-resume {
+    0% {
+      background-color: black;
+    }
+    100% {
+      background-color: red;
+      color: black;
+    }
+  }
 
 .education{
     margin-left: 4%;
@@ -114,7 +127,11 @@
 }
 
 .edu table{
-    width: 50%;
+    width: 60%;
+}
+
+.edu h4{
+    margin-left: 5px;
 }
 
 .edu td:hover{
@@ -288,8 +305,6 @@ footer{
         margin-left: 15%        
     }
     
-
-
       .name {
         width: 100px;
         height: 400px;
@@ -311,5 +326,37 @@ footer{
         height: 175px;
 
       }
+  }
+
+
+
+  @media only screen and (max-width:900px) 
+  /* laptop view */
+{
+    .name{
+        width: 500px;
+        height: 230px;
+        display: block;
+        position: static;
+        margin-top:0px;
+    }
+       
+
+    
+    
+        
+
+        
+
+
+
+
+
+
+
+
+ 
+        
+
 
   }
